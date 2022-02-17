@@ -14,7 +14,7 @@ function ExpenseItem(props) {
           <div>{year}</div>
       </div>
       <div className="expense-itemdescription">
-        <h2>{props.title}</h2>
+        <h2>{props.title} Hello</h2>
         <div className="expense-itemprice">$ {props.amount}</div>
       </div>
     </div>
